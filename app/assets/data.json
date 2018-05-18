@@ -17,12 +17,14 @@
     "--5x8",
     "--7x5",
     "--5x7",
-    "--1x"
+    "--1x1"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "aspect-ratio",
@@ -62,9 +64,11 @@
     "-left = center left"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "background",
@@ -83,9 +87,11 @@
     "contain"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "background",
@@ -135,9 +141,11 @@
     "--left"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "border",
@@ -160,9 +168,11 @@
     "--solid = solid"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "border",
@@ -186,9 +196,11 @@
     "5 = 5th step in border-width scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "border",
@@ -212,9 +224,11 @@
     "n = none"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "border",
@@ -238,9 +252,11 @@
     "5 = 5th step in shadow scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "box-shadow",
@@ -263,9 +279,11 @@
     "n = none"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "literal": null,
   "tags": [
@@ -296,15 +314,31 @@
   "description": "\n",
   "base": null,
   "modifiers": [
-    "color^black",
+    "color^rebel-pink",
+    "color^heavy-rebel-pink",
+    "color^elite-purple",
     "color^near-black",
     "color^dark-gray",
     "color^mid-gray",
     "color^gray",
     "color^silver",
-    "color^light-silver",
-    "color^moon-gray",
     "color^light-gray",
+    "color^light-silver",
+    "color^near-white",
+    "color^white",
+    "color^washed-blue",
+    "color^light-blue",
+    "color^blue",
+    "color^heavy-blue",
+    "color^light-marine",
+    "color^marine",
+    "color^serious-black",
+    "color^green",
+    "color^washed-green",
+    "color^red",
+    "color^washed-red",
+    "color^yellow",
+    "color^washed-yellow",
     "color^black-90",
     "color^black-80",
     "color^black-70",
@@ -317,33 +351,6 @@
     "color^black-05",
     "color^black-025",
     "color^black-0125",
-    "color^dark-red",
-    "color^red",
-    "color^light-red",
-    "color^orange",
-    "color^gold",
-    "color^yellow",
-    "color^light-yellow",
-    "color^purple",
-    "color^light-purple",
-    "color^dark-pink",
-    "color^hot-pink",
-    "color^pink",
-    "color^light-pink",
-    "color^dark-green",
-    "color^green",
-    "color^light-green",
-    "color^navy",
-    "color^dark-blue",
-    "color^blue",
-    "color^light-blue",
-    "color^lightest-blue",
-    "color^washed-blue",
-    "color^washed-green",
-    "color^washed-yellow",
-    "color^washed-red",
-    "color^near-white",
-    "color^white",
     "color^white-90",
     "color^white-80",
     "color^white-70",
@@ -384,33 +391,17 @@
     "--2 = literal value -2"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "top",
     "bottom",
     "left",
     "right"
-  ]
-},
-{
-  "name": "Debug",
-  "docs": "http://tachyons.io/docs/debug/",
-  "src": "debug-children",
-  "description": "Add the debug class to any element to see outlines on its children.\n",
-  "base": [
-    "debug"
-  ],
-  "modifiers": [
-    "-white",
-    "-black"
-  ],
-  "media": null,
-  "tags": [
-    "debug",
-    "outline"
   ]
 },
 {
@@ -434,9 +425,11 @@
     "t--fixed"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "display",
@@ -489,9 +482,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "flex",
@@ -527,21 +522,7 @@
   "src": "font-family",
   "description": null,
   "base": [
-    "sans-serif",
-    "serif",
-    "system-sans-serif",
-    "system-serif",
-    "ode, .code",
-    "courier",
-    "helvetica",
-    "avenir",
-    "athelas",
-    "georgia",
-    "times",
-    "bodoni",
-    "calisto",
-    "garamond",
-    "baskerville"
+    "code, .code"
   ],
   "modifiers": null,
   "media": null,
@@ -560,9 +541,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "italic",
@@ -592,9 +575,11 @@
     "9 = literal value 900"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "font",
@@ -647,9 +632,11 @@
     "-inherit = string value of inherit"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "literal": null,
   "tags": [
@@ -693,9 +680,11 @@
     "-mega"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "letter-spacing"
@@ -715,9 +704,11 @@
     "-copy"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "leading",
@@ -777,12 +768,18 @@
     "4 = 4th step in spacing scale",
     "5 = 5th step in spacing scale",
     "6 = 6th step in spacing scale",
-    "7 = 7th step in spacing scale"
+    "7 = 7th step in spacing scale",
+    "8 = 8th step in spacing scale",
+    "9 = 9th step in spacing scale",
+    "10 = 10th step in spacing scale",
+    "11 = 11th step in spacing scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "margin",
@@ -811,9 +808,11 @@
     "-none  = string value none"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "max width",
@@ -840,12 +839,18 @@
     "4 = 4th step in spacing scale",
     "5 = 5th step in spacing scale",
     "6 = 6th step in spacing scale",
-    "7 = 7th step in spacing scale"
+    "7 = 7th step in spacing scale",
+    "8 = 8th step in spacing scale",
+    "9 = 9th step in spacing scale",
+    "10 = 10th step in spacing scale",
+    "11 = 11th step in spacing scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "literal": null,
   "tags": [
@@ -894,9 +899,11 @@
     "-0 = outline 0"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "outline"
@@ -925,9 +932,11 @@
     "-y-auto"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "overflow"
@@ -956,12 +965,18 @@
     "4 = 4th step in spacing scale",
     "5 = 5th step in spacing scale",
     "6 = 6th step in spacing scale",
-    "7 = 7th step in spacing scale"
+    "7 = 7th step in spacing scale",
+    "8 = 8th step in spacing scale",
+    "9 = 9th step in spacing scale",
+    "10 = 10th step in spacing scale",
+    "11 = 11th step in spacing scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "padding",
@@ -981,9 +996,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "position",
@@ -1011,9 +1028,11 @@
     "-315"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "rotation",
@@ -1056,9 +1075,11 @@
     "c = center"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "text",
@@ -1094,9 +1115,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "text",
@@ -1119,9 +1142,11 @@
     "n = none"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "text",
@@ -1144,12 +1169,15 @@
     "3 = 3rd step in size scale",
     "4 = 4th step in size scale",
     "5 = 5th step in size scale",
-    "6 = 6th step in size scale"
+    "6 = 6th step in size scale",
+    "7 = 7th step in size scale"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "typography",
@@ -1190,9 +1218,11 @@
     "-btm"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "alignment",
@@ -1210,9 +1240,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": null
 },
@@ -1228,9 +1260,11 @@
   ],
   "modifiers": null,
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "whitespace"
@@ -1269,9 +1303,11 @@
     "-auto = string value auto"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "width"
@@ -1291,9 +1327,11 @@
     "-nowrap"
   ],
   "media": [
+    "-s = small",
     "-ns = not-small",
     "-m  = medium",
-    "-l  = large"
+    "-l  = large",
+    "-xl  = large"
   ],
   "tags": [
     "word wrap",
