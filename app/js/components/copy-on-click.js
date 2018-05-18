@@ -36,7 +36,7 @@ class CopyOnClick extends Component {
       <a
         href="#"
         ref={(el) => { this.$wrapper = el }}
-        class={`bg-animate hover-bg-washed-green pointer link black ${this.props['class']}`}
+        class={`bg-animate hover-bg-washed-green pointer link near-black ${this.props['class']}`}
         onClick={this.teste}
         aria-label={label}
       >

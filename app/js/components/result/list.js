@@ -16,7 +16,7 @@ const BasicItem = ({ item, base }) => {
 
 const ColorItem = ({ color }) => {
   return (
-    <CopyOnClick class="w-30 w-20-m w-10-l mb2 pv3 tc">
+    <CopyOnClick class="w-30 w-20-m w-10-l mb2 pv3 tc near-black">
       <span class={`db center mb2 w3 h3 bg-${color} ba b--black-60`}></span>
       <span data-copy>{color}</span>
     </CopyOnClick>
