@@ -16,11 +16,14 @@ modifiers:
   - 4 = 4th step in size scale
   - 5 = 5th step in size scale
   - 6 = 6th step in size scale
+  - 7 = 7th step in size scale
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - typography

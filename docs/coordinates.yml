@@ -22,9 +22,11 @@ modifiers:
   - --2 = literal value -2
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - top

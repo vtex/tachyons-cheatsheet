@@ -9,15 +9,31 @@ description: >
 base:
 
 modifiers:
-  - color^black
+  - color^rebel-pink
+  - color^heavy-rebel-pink
+  - color^elite-purple
   - color^near-black
   - color^dark-gray
   - color^mid-gray
   - color^gray
   - color^silver
-  - color^light-silver
-  - color^moon-gray
   - color^light-gray
+  - color^light-silver
+  - color^near-white
+  - color^white
+  - color^washed-blue
+  - color^light-blue
+  - color^blue
+  - color^heavy-blue
+  - color^light-marine
+  - color^marine
+  - color^serious-black
+  - color^green
+  - color^washed-green
+  - color^red
+  - color^washed-red
+  - color^yellow
+  - color^washed-yellow
   - color^black-90
   - color^black-80
   - color^black-70
@@ -30,33 +46,6 @@ modifiers:
   - color^black-05
   - color^black-025
   - color^black-0125
-  - color^dark-red
-  - color^red
-  - color^light-red
-  - color^orange
-  - color^gold
-  - color^yellow
-  - color^light-yellow
-  - color^purple
-  - color^light-purple
-  - color^dark-pink
-  - color^hot-pink
-  - color^pink
-  - color^light-pink
-  - color^dark-green
-  - color^green
-  - color^light-green
-  - color^navy
-  - color^dark-blue
-  - color^blue
-  - color^light-blue
-  - color^lightest-blue
-  - color^washed-blue
-  - color^washed-green
-  - color^washed-yellow
-  - color^washed-red
-  - color^near-white
-  - color^white
   - color^white-90
   - color^white-80
   - color^white-70

@@ -19,9 +19,11 @@ modifiers:
   - 5 = 5th step in border-width scale
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - border

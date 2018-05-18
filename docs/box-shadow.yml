@@ -18,9 +18,11 @@ modifiers:
 
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - box-shadow

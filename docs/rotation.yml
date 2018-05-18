@@ -19,9 +19,11 @@ modifiers:
   - '-315'
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - rotation

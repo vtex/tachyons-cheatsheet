@@ -24,9 +24,11 @@ modifiers:
   - -y-auto
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - overflow

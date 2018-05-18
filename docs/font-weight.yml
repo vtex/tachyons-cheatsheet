@@ -24,9 +24,11 @@ modifiers:
   - 9 = literal value 900
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - font

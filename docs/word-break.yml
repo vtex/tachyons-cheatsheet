@@ -15,9 +15,11 @@ modifiers:
   - -nowrap
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - word wrap

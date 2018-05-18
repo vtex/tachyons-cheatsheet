@@ -14,9 +14,11 @@ modifiers:
   - -0 = outline 0
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - outline

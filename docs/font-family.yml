@@ -7,21 +7,7 @@ src: font-family
 description:
 
 base:
-  - sans-serif
-  - serif
-  - system-sans-serif
-  - system-serif
-  - ode, .code
-  - courier
-  - helvetica
-  - avenir
-  - athelas
-  - georgia
-  - times
-  - bodoni
-  - calisto
-  - garamond
-  - baskerville
+  - code, .code
 
 modifiers:
 

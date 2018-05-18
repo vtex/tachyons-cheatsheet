@@ -26,9 +26,11 @@ modifiers:
   - -inherit = string value of inherit
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 literal:
 

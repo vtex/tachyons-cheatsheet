@@ -23,9 +23,11 @@ modifiers:
   - -none  = string value none
 
 media:
+  - -s = small
   - -ns = not-small
   - -m  = medium
   - -l  = large
+  - -xl  = large
 
 tags:
   - max width
